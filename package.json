@@ -1,7 +1,7 @@
 {
   "name": "amazona",
   "version": "1.0.0",
-  "description": "",
+  "description": "# Lessons",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1909Mohit/eCommerce.git"
+    "url": "git+https://github.com/1909Mohit/amazon-clone.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1909Mohit/eCommerce/issues"
+    "url": "https://github.com/1909Mohit/amazon-clone/issues"
   },
-  "homepage": "https://github.com/1909Mohit/eCommerce#readme"
+  "homepage": "https://github.com/1909Mohit/amazon-clone#readme"
 }
