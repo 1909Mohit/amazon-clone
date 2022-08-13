@@ -113,6 +113,7 @@ export default function ShippingAddressScreen() {
               type="button"
               variant="light"
               onClick={() => navigate('/map')}
+              className='d-none'
             >
               Choose Location On Map
             </Button>
@@ -122,7 +123,7 @@ export default function ShippingAddressScreen() {
                 LNG:{shippingAddress.location.lng}
               </div>
             ) : (
-              <div>No location</div>
+              <div className='d-none'>No location</div>
             )}
           </div>
 
