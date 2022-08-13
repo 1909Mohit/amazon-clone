@@ -9,7 +9,7 @@ import orderRouter from './routes/orderRoutes.js';
 import uploadRouter from './routes/uploadRoutes.js';
 
 dotenv.config();
-const dbUrl = 'mongodb://localhost:27017/amazona';
+const dbUrl = process.env.MONGODB_URI || 'mongodb://localhost:27017/amazona';
 mongoose
   .connect(dbUrl,{
     useNewUrlParser: true,
